@@ -15,3 +15,8 @@ add_executable(test_find_first_appearing_once
         string/find_first_appearing_once/01/Solution.h
         string/find_first_appearing_once/01/Solution.cpp
         string/find_first_appearing_once/01/test.cpp)
+
+add_executable(test_check_str_is_numberic
+        string/check_str_is_numberic/01/Solution.h
+        string/check_str_is_numberic/01/Solution.cpp
+        string/check_str_is_numberic/01/test.cpp)
