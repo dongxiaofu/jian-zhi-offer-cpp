@@ -10,3 +10,8 @@ add_executable(test_replace_space_01
         string/replace_empty_string/01/Solution.h
         string/replace_empty_string/01/Solution.cpp
         string/replace_empty_string/01/test_replace_space.cpp)
+
+add_executable(test_find_first_appearing_once
+        string/find_first_appearing_once/01/Solution.h
+        string/find_first_appearing_once/01/Solution.cpp
+        string/find_first_appearing_once/01/test.cpp)
