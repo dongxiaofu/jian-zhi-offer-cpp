@@ -20,3 +20,8 @@ add_executable(test_check_str_is_numberic
         string/check_str_is_numberic/01/Solution.h
         string/check_str_is_numberic/01/Solution.cpp
         string/check_str_is_numberic/01/test.cpp)
+
+add_executable(test_regular_expression
+        string/regular_expression/01/Solution.h
+        string/regular_expression/01/Solution.cpp
+        string/regular_expression/01/test.cpp)
