@@ -25,3 +25,8 @@ add_executable(test_regular_expression
         string/regular_expression/01/Solution.h
         string/regular_expression/01/Solution.cpp
         string/regular_expression/01/test.cpp)
+
+add_executable(test_number_of_one
+        bitwise/01/Solution.cpp
+        bitwise/01/Solution.h
+        bitwise/01/test.cpp)
