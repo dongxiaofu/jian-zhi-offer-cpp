@@ -30,3 +30,8 @@ add_executable(test_number_of_one
         bitwise/01/Solution.cpp
         bitwise/01/Solution.h
         bitwise/01/test.cpp)
+
+add_executable(test_cut_rope_01
+        dynamic-programming/cut_rope/01/Solution.cpp
+        dynamic-programming/cut_rope/01/Solution.h
+        dynamic-programming/cut_rope/01/test.cpp)
