@@ -35,3 +35,8 @@ add_executable(test_cut_rope_01
         dynamic-programming/cut_rope/01/Solution.cpp
         dynamic-programming/cut_rope/01/Solution.h
         dynamic-programming/cut_rope/01/test.cpp)
+
+add_executable(test_hash_path_in_matrix_01
+        back-tracking/hash_path_in_matrix/01/Solution.cpp
+#        back-tracking/hash_path_in_matrix/01/Solution.h
+        back-tracking/hash_path_in_matrix/01/test.cpp)
