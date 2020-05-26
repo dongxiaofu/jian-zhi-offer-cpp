@@ -58,3 +58,9 @@ add_executable(test_robot_run_range_01
         back-tracking/robot-run-range/01/Solution.h
         back-tracking/robot-run-range/01/Solution.cpp
         back-tracking/robot-run-range/01/test.cpp)
+
+#数组
+add_executable(test_find_in_two_dimension
+        array/find_in_two_dimension/01/Solution.h
+        array/find_in_two_dimension/01/Solution.cpp
+        array/find_in_two_dimension/01/test.cpp)
