@@ -31,6 +31,14 @@ add_executable(test_first_not_repeationg_char_01
         string/first_not_repeating_char/01/Solution.h
         string/first_not_repeating_char/01/test.cpp)
 
+add_executable(test_reverse_sentence_01
+        string/reverse_sentence/01/Solution.cpp
+        string/reverse_sentence/01/Solution.h
+        string/reverse_sentence/01/test.cpp)
+
+add_executable(test_string_demo
+        string/reverse_sentence/demo/string_demo.cpp)
+
 add_executable(test_number_of_one
         bitwise/01/Solution.cpp
         bitwise/01/Solution.h
