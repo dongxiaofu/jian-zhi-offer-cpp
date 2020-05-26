@@ -64,3 +64,8 @@ add_executable(test_find_in_two_dimension
         array/find_in_two_dimension/01/Solution.h
         array/find_in_two_dimension/01/Solution.cpp
         array/find_in_two_dimension/01/test.cpp)
+
+add_executable(test_find_duplication_number_in_array_01
+        array/find_duplication_number_in_array/01/Solution.h
+        array/find_duplication_number_in_array/01/Solution.cpp
+        array/find_duplication_number_in_array/01/test.cpp)
