@@ -36,6 +36,9 @@ bool Solution::hasPath(char *matrix, int cols, int rows, char *str) {
 
 bool Solution::hasPathCore(char *matrix, int cols, int rows, char *str,
                            int col, int row, int &pathLength, bool *visited) {
+    // 空字符串，找到路径（可询问确定是否这样的标准）；
+    // 非空，当到了末尾时，意味着前一个字符是匹配的。若前一个字符不匹配，该函数会返回false，
+    // 调用该函数的两层循环执行完毕，返回false。
     if (str[pathLength] == '\0') {
         return true;
     }
