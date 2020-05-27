@@ -69,3 +69,8 @@ add_executable(test_find_duplication_number_in_array_01
         array/find_duplication_number_in_array/01/Solution.h
         array/find_duplication_number_in_array/01/Solution.cpp
         array/find_duplication_number_in_array/01/test.cpp)
+
+add_executable(test_min_in_rotate_array_01
+        array/min_in_rotate_array/01/Solution.h
+        array/min_in_rotate_array/01/Solution.cpp
+        array/min_in_rotate_array/01/test.cpp)
