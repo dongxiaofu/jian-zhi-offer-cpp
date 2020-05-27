@@ -80,3 +80,8 @@ add_executable(test_recursion_repeat_01
         recursion_repeat/cover_matrix/01/Solution.cpp
         recursion_repeat/cover_matrix/01/Solution.h
         recursion_repeat/cover_matrix/01/test.cpp)
+
+add_executable(test_cover_matrix_02
+        recursion_repeat/cover_matrix/02/Solution.cpp
+        recursion_repeat/cover_matrix/02/Solution.h
+        recursion_repeat/cover_matrix/02/test.cpp)
