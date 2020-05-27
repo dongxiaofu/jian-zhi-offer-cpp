@@ -85,3 +85,8 @@ add_executable(test_cover_matrix_02
         recursion_repeat/cover_matrix/02/Solution.cpp
         recursion_repeat/cover_matrix/02/Solution.h
         recursion_repeat/cover_matrix/02/test.cpp)
+
+add_executable(test_fibonacci_01
+        recursion_repeat/fibonacci/01/Solution.cpp
+        recursion_repeat/fibonacci/01/Solution.h
+        recursion_repeat/fibonacci/01/test.cpp)
