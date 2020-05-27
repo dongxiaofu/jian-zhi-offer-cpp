@@ -74,3 +74,9 @@ add_executable(test_min_in_rotate_array_01
         array/min_in_rotate_array/01/Solution.h
         array/min_in_rotate_array/01/Solution.cpp
         array/min_in_rotate_array/01/test.cpp)
+
+#递归和循环
+add_executable(test_recursion_repeat_01
+        recursion_repeat/cover_matrix/01/Solution.cpp
+        recursion_repeat/cover_matrix/01/Solution.h
+        recursion_repeat/cover_matrix/01/test.cpp)
