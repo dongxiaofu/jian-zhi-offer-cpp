@@ -100,3 +100,14 @@ add_executable(test_difficutl_step_jumping_02
         recursion_repeat/difficutl_step_jumping/02/Solution.h
         recursion_repeat/difficutl_step_jumping/02/Solution.cpp
         recursion_repeat/difficutl_step_jumping/02/test.cpp)
+
+#代码的完整性
+add_executable(test_exponent_01
+        code_completeness/exponent/01/Solution.h
+        code_completeness/exponent/01/Solution.cpp
+        code_completeness/exponent/01/test.cpp)
+
+add_executable(test_exponent_02
+        code_completeness/exponent/02/Solution.h
+        code_completeness/exponent/02/Solution.cpp
+        code_completeness/exponent/02/test.cpp)
