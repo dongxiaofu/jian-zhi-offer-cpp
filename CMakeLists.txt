@@ -111,3 +111,8 @@ add_executable(test_exponent_02
         code_completeness/exponent/02/Solution.h
         code_completeness/exponent/02/Solution.cpp
         code_completeness/exponent/02/test.cpp)
+
+add_executable(test_odd_in_front_of_even_01
+        code_completeness/odd_in_front_of_even/01/Solution.h
+        code_completeness/odd_in_front_of_even/01/Solution.cpp
+        code_completeness/odd_in_front_of_even/01/test.cpp)
