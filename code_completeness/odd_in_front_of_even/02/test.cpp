@@ -1,6 +1,7 @@
 //
 // Created by chugang on 2020/5/27.
 //
+
 #include <iostream>
 #include "Solution.h"
 
@@ -12,9 +13,9 @@ int main() {
 
     Solution solution;
 
-    int arr1[6] = {4, 6, 3, 1, 5, 2};
+    int arr1[7] = {4, 6, 3, 1, 5, 2,9};
     vector<int> v1;
-    v1.insert(v1.begin(), arr1, arr1 + 6);
+    v1.insert(v1.begin(), arr1, arr1 + 7);
     solution.reOrderArray(v1);
     print_array(v1);
 
