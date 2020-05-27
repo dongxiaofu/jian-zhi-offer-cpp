@@ -95,3 +95,8 @@ add_executable(test_difficutl_step_jumping_01
         recursion_repeat/difficutl_step_jumping/01/Solution.h
         recursion_repeat/difficutl_step_jumping/01/Solution.cpp
         recursion_repeat/difficutl_step_jumping/01/test.cpp)
+
+add_executable(test_difficutl_step_jumping_02
+        recursion_repeat/difficutl_step_jumping/02/Solution.h
+        recursion_repeat/difficutl_step_jumping/02/Solution.cpp
+        recursion_repeat/difficutl_step_jumping/02/test.cpp)
