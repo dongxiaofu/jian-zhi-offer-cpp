@@ -90,3 +90,8 @@ add_executable(test_fibonacci_01
         recursion_repeat/fibonacci/01/Solution.cpp
         recursion_repeat/fibonacci/01/Solution.h
         recursion_repeat/fibonacci/01/test.cpp)
+
+add_executable(test_difficutl_step_jumping_01
+        recursion_repeat/difficutl_step_jumping/01/Solution.h
+        recursion_repeat/difficutl_step_jumping/01/Solution.cpp
+        recursion_repeat/difficutl_step_jumping/01/test.cpp)
