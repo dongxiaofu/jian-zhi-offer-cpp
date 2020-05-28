@@ -138,6 +138,11 @@ add_executable(test_entry_of_ring_01
         linked_list/entry_of_ring/01/Solution.cpp
         linked_list/entry_of_ring/01/test.cpp)
 
+add_executable(test_reverse_linked_list_01
+        linked_list/reverse_linked_list/01/Solution.h
+        linked_list/reverse_linked_list/01/Solution.cpp
+        linked_list/reverse_linked_list/01/test.cpp)
+
 #队列和栈
 add_executable(test_stack_demo
         queue_and_stack/implement_queue_with_two_stacks/01/demo/stack_demo.cpp)
