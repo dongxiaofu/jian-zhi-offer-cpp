@@ -151,3 +151,8 @@ add_executable(test_max_in_sliding_window_01
         queue_and_stack/max_in_sliding_window/01/Solution.h
         queue_and_stack/max_in_sliding_window/01/Solution.cpp
         queue_and_stack/max_in_sliding_window/01/test.cpp)
+
+add_executable(test_max_in_sliding_window_02
+        queue_and_stack/max_in_sliding_window/02/Solution.h
+        queue_and_stack/max_in_sliding_window/02/Solution.cpp
+        queue_and_stack/max_in_sliding_window/02/test.cpp)
