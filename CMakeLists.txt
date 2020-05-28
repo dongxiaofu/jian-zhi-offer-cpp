@@ -132,3 +132,8 @@ add_executable(test_delete_duplication_01
         linked_list/delete_duplication/01/Solution.h
         linked_list/delete_duplication/01/Solution.cpp
         linked_list/delete_duplication/01/test.cpp)
+
+add_executable(test_entry_of_ring_01
+        linked_list/entry_of_ring/01/Solution.h
+        linked_list/entry_of_ring/01/Solution.cpp
+        linked_list/entry_of_ring/01/test.cpp)
