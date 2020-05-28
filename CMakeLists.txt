@@ -121,3 +121,9 @@ add_executable(test_odd_in_front_of_even_02
         code_completeness/odd_in_front_of_even/02/Solution.h
         code_completeness/odd_in_front_of_even/02/Solution.cpp
         code_completeness/odd_in_front_of_even/02/test.cpp)
+
+#链表
+add_executable(test_print_linked_list_from_tail_to_head_01
+        linked_list/print_linked_list_from_tail_to_head/01/Solution.h
+        linked_list/print_linked_list_from_tail_to_head/01/Solution.cpp
+        linked_list/print_linked_list_from_tail_to_head/01/test.cpp)
