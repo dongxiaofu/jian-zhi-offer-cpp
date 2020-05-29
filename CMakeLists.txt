@@ -171,3 +171,8 @@ add_executable(test_min_in_stack_01
         queue_and_stack/min_in_stack/01/Solution.h
         queue_and_stack/min_in_stack/01/Solution.cpp
         queue_and_stack/min_in_stack/01/test.cpp)
+
+add_executable(test_kth_node_from_tail_in_linked_list
+        queue_and_stack/kth_node_from_tail_in_linked_list/01/Solution.h
+        queue_and_stack/kth_node_from_tail_in_linked_list/01/Solution.cpp
+        queue_and_stack/kth_node_from_tail_in_linked_list/01/test.cpp)
