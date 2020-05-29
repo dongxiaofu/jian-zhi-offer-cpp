@@ -4,7 +4,7 @@
 
 #include "Solution.h"
 
-ListNode *Solution::ReverList(ListNode *pHead) {
+ListNode *Solution::ReverseList(ListNode *pHead) {
     if (pHead == NULL) {
         return NULL;
     }

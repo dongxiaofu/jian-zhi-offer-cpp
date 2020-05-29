@@ -143,6 +143,11 @@ add_executable(test_reverse_linked_list_01
         linked_list/reverse_linked_list/01/Solution.cpp
         linked_list/reverse_linked_list/01/test.cpp)
 
+add_executable(test_reverse_linked_list_02
+        linked_list/reverse_linked_list/02/Solution.h
+        linked_list/reverse_linked_list/02/Solution.cpp
+        linked_list/reverse_linked_list/02/test.cpp)
+
 add_executable(test_kth_node_from_tail_in_linked_list
         linked_list/kth_node_from_tail_in_linked_list/01/Solution.h
         linked_list/kth_node_from_tail_in_linked_list/01/Solution.cpp
