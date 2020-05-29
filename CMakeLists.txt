@@ -166,3 +166,8 @@ add_executable(test_stack_push_pop_01
         queue_and_stack/stack_push_pop/01/Solution.h
         queue_and_stack/stack_push_pop/01/Solution.cpp
         queue_and_stack/stack_push_pop/01/test.cpp)
+
+add_executable(test_min_in_stack_01
+        queue_and_stack/min_in_stack/01/Solution.h
+        queue_and_stack/min_in_stack/01/Solution.cpp
+        queue_and_stack/min_in_stack/01/test.cpp)
