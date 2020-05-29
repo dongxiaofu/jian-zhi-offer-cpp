@@ -143,6 +143,16 @@ add_executable(test_reverse_linked_list_01
         linked_list/reverse_linked_list/01/Solution.cpp
         linked_list/reverse_linked_list/01/test.cpp)
 
+add_executable(test_kth_node_from_tail_in_linked_list
+        linked_list/kth_node_from_tail_in_linked_list/01/Solution.h
+        linked_list/kth_node_from_tail_in_linked_list/01/Solution.cpp
+        linked_list/kth_node_from_tail_in_linked_list/01/test.cpp)
+
+add_executable(test_merge_sorted_linked_list_01
+        linked_list/merge_sorted_linked_list/01/Solution.h
+        linked_list/merge_sorted_linked_list/01/Solution.cpp
+        linked_list/merge_sorted_linked_list/01/test.cpp)
+
 #队列和栈
 add_executable(test_stack_demo
         queue_and_stack/implement_queue_with_two_stacks/01/demo/stack_demo.cpp)
@@ -172,7 +182,4 @@ add_executable(test_min_in_stack_01
         queue_and_stack/min_in_stack/01/Solution.cpp
         queue_and_stack/min_in_stack/01/test.cpp)
 
-add_executable(test_kth_node_from_tail_in_linked_list
-        queue_and_stack/kth_node_from_tail_in_linked_list/01/Solution.h
-        queue_and_stack/kth_node_from_tail_in_linked_list/01/Solution.cpp
-        queue_and_stack/kth_node_from_tail_in_linked_list/01/test.cpp)
+
