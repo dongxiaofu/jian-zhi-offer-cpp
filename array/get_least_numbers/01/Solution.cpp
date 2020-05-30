@@ -11,7 +11,7 @@
  * 2.当input[high]<pivot时，交换input[low]和input[high]。
  * 3.当input[low]>pivot时，交换input[low]和input[high]。
  * 4.循环维持的条件是：low<high。
- * 注意：代码中的边界条件，我暂时未理解为何需要等于。
+ * 注意：代码中的边界条件，我暂时未理解为何需要等于。已经理解了。
  * 星级：4
  ******************************************************************/
 #include "Solution.h"
@@ -29,6 +29,7 @@ vector<int> Solution::getLeastNumbers(vector<int> input, int k) {
     }
     return minValues;
 }
+
 // todo 需要修改input，使用&
 void Solution::qSort(vector<int> &input, int low, int high) {
     if (low < high) {
@@ -37,6 +38,7 @@ void Solution::qSort(vector<int> &input, int low, int high) {
         qSort(input, pivot + 1, high);
     }
 }
+
 // todo 需要修改input，使用&
 int Solution::partition(vector<int> &input, int low, int high) {
     int pivot = input[low];
@@ -47,6 +49,8 @@ int Solution::partition(vector<int> &input, int low, int high) {
         }
         swap(&input[low], &input[high]);
         // todo input[low] <= pivot 为何需要"="呢？
+        // 与上文对high的处理，只保留一个=。若无等号，出现死循环。
+        // 先将元素item移动到low，再将item移动到high，反复执行。
         while (low < high && input[low] <= pivot) {
             low = low + 1;
         }
