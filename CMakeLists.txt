@@ -85,6 +85,11 @@ add_executable(test_get_least_numbers_01
         array/get_least_numbers/01/Solution.cpp
         array/get_least_numbers/01/test.cpp)
 
+add_executable(test_find_greatest_sum_of_sub_array_01
+        array/find_greatest_sum_of_sub_array/01/Solution.h
+        array/find_greatest_sum_of_sub_array/01/Solution.cpp
+        array/find_greatest_sum_of_sub_array/01/test.cpp)
+
 add_executable(test_vector_demo
         array/get_least_numbers/demo/vector_demo.cpp)
 
