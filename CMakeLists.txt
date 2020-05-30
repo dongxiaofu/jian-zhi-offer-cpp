@@ -75,6 +75,11 @@ add_executable(test_min_in_rotate_array_01
         array/min_in_rotate_array/01/Solution.cpp
         array/min_in_rotate_array/01/test.cpp)
 
+add_executable(test_more_than_half_num_01
+        array/more_than_half_num/01/Solution.h
+        array/more_than_half_num/01/Solution.cpp
+        array/more_than_half_num/01/test.cpp)
+
 #递归和循环
 add_executable(test_recursion_repeat_01
         recursion_repeat/cover_matrix/01/Solution.cpp
