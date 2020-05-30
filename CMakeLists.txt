@@ -80,6 +80,14 @@ add_executable(test_more_than_half_num_01
         array/more_than_half_num/01/Solution.cpp
         array/more_than_half_num/01/test.cpp)
 
+add_executable(test_get_least_numbers_01
+        array/get_least_numbers/01/Solution.h
+        array/get_least_numbers/01/Solution.cpp
+        array/get_least_numbers/01/test.cpp)
+
+add_executable(test_vector_demo
+        array/get_least_numbers/demo/vector_demo.cpp)
+
 #递归和循环
 add_executable(test_recursion_repeat_01
         recursion_repeat/cover_matrix/01/Solution.cpp
