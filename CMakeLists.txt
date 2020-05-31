@@ -110,6 +110,11 @@ add_executable(test_find_number_appear_once_01
         array/find_number_appear_once/01/Solution.cpp
         array/find_number_appear_once/01/test.cpp)
 
+add_executable(test_find_number_appear_once_02
+        array/find_number_appear_once/02/Solution.h
+        array/find_number_appear_once/02/Solution.cpp
+        array/find_number_appear_once/02/test.cpp)
+
 add_executable(test_vector_demo
         array/get_least_numbers/demo/vector_demo.cpp)
 
