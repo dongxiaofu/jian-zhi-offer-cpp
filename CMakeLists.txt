@@ -115,6 +115,11 @@ add_executable(test_find_number_appear_once_02
         array/find_number_appear_once/02/Solution.cpp
         array/find_number_appear_once/02/test.cpp)
 
+add_executable(test_two_01
+        array/two_sum/01/Solution.h
+        array/two_sum/01/Solution.cpp
+        array/two_sum/01/test.cpp)
+
 add_executable(test_vector_demo
         array/get_least_numbers/demo/vector_demo.cpp)
 
