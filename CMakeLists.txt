@@ -3,6 +3,7 @@ project(jian_zhi_offer_cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
+#字符串
 add_executable(test_char
         string/replace_empty_string/demo/test_char.c)
 
@@ -35,6 +36,11 @@ add_executable(test_reverse_sentence_01
         string/reverse_sentence/01/Solution.cpp
         string/reverse_sentence/01/Solution.h
         string/reverse_sentence/01/test.cpp)
+
+add_executable(test_left_rotate_string_01
+        string/left_rotate_string/01/Solution.h
+        string/left_rotate_string/01/Solution.cpp
+        string/left_rotate_string/01/test.cpp)
 
 add_executable(test_string_demo
         string/reverse_sentence/demo/string_demo.cpp)
