@@ -105,8 +105,16 @@ add_executable(test_get_number_of_k_02
         array/get_number_of_k/02/Solution.cpp
         array/get_number_of_k/02/test.cpp)
 
+add_executable(test_find_number_appear_once_01
+        array/find_number_appear_once/01/Solution.h
+        array/find_number_appear_once/01/Solution.cpp
+        array/find_number_appear_once/01/test.cpp)
+
 add_executable(test_vector_demo
         array/get_least_numbers/demo/vector_demo.cpp)
+
+add_executable(test_pointer_demo
+        array/find_number_appear_once/01/demo/demo_pointer.cpp)
 
 #递归和循环
 add_executable(test_recursion_repeat_01
