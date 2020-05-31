@@ -27,6 +27,7 @@ bool Solution::match(char *str, char *pattern) {
     } else {
         // 不存在情况之一对应下面的情况之一
         if (*str == *pattern || (*str != '\0' && *pattern == '.')) {
+            // todo 匹配零个。                         匹配多个。
             return match(str, pattern + 2) || match(str + 1, pattern);
         } else {
             return match(str, pattern + 2);
