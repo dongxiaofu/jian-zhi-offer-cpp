@@ -42,6 +42,11 @@ add_executable(test_left_rotate_string_01
         string/left_rotate_string/01/Solution.cpp
         string/left_rotate_string/01/test.cpp)
 
+add_executable(test_left_rotate_string_02
+        string/left_rotate_string/02/Solution.h
+        string/left_rotate_string/02/Solution.cpp
+        string/left_rotate_string/02/test.cpp)
+
 add_executable(test_string_demo
         string/reverse_sentence/demo/string_demo.cpp)
 
