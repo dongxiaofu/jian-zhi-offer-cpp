@@ -285,3 +285,14 @@ add_executable(test_number_of_one_between_1_and_n_01
         find_and_math/number_of_one_between_1_and_n/01/Solution.cpp
         find_and_math/number_of_one_between_1_and_n/01/test.cpp)
 
+#堆
+add_executable(test_get_median_01
+        heap/get_median/01/Solution.h
+        heap/get_median/01/Solution.cpp
+        heap/get_median/01/test.cpp)
+
+add_executable(test_heap_demo_01
+        heap/demo/01/demo.cpp)
+
+#add_executable(test_heap_demo_02
+#        heap/demo/02/demo.cpp)
