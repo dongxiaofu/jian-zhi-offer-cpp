@@ -299,3 +299,8 @@ add_executable(test_preorder_traversal_01
         tree/preorder_traversal/01/Solution.h
         tree/preorder_traversal/01/Solution.cpp
         tree/preorder_traversal/01/test.cpp)
+
+add_executable(test_print_tree_by_line_01
+        tree/print_tree_by_line/01/Solution.h
+        tree/print_tree_by_line/01/Solution.cpp
+        tree/print_tree_by_line/01/test.cpp)
