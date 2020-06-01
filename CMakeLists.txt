@@ -146,6 +146,11 @@ add_executable(test_find-two-dimensional-array_01
         array/find-two-dimensional-array/01/Solution.cpp
         array/find-two-dimensional-array/01/test.cpp)
 
+add_executable(test_multiply_01
+        array/multiply/01/Solution.h
+        array/multiply/01/Solution.cpp
+        array/multiply/01/test.cpp)
+
 add_executable(test_vector_demo
         array/get_least_numbers/demo/vector_demo.cpp)
 
