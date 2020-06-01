@@ -294,5 +294,8 @@ add_executable(test_get_median_01
 add_executable(test_heap_demo_01
         heap/demo/01/demo.cpp)
 
-#add_executable(test_heap_demo_02
-#        heap/demo/02/demo.cpp)
+#树
+add_executable(test_preorder_traversal_01
+        tree/preorder_traversal/01/Solution.h
+        tree/preorder_traversal/01/Solution.cpp
+        tree/preorder_traversal/01/test.cpp)
