@@ -329,3 +329,8 @@ add_executable(test_serialize_tree_01
         tree/serialize/01/Solution.h
         tree/serialize/01/Solution.cpp
         tree/serialize/01/test.cpp)
+
+add_executable(test_kth_node_01
+        tree/kth_node/01/Solution.h
+        tree/kth_node/01/Solution.cpp
+        tree/kth_node/01/test.cpp)
