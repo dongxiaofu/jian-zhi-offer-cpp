@@ -319,3 +319,8 @@ add_executable(test_reconstruct_01
         tree/reconstruct/01/Solution.h
         tree/reconstruct/01/Solution.cpp
         tree/reconstruct/01/test.cpp)
+
+add_executable(test_print_zhi_01
+        tree/print_zhi/01/Solution.h
+        tree/print_zhi/01/Solution.cpp
+        tree/print_zhi/01/test.cpp)
