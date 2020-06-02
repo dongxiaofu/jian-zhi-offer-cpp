@@ -324,3 +324,8 @@ add_executable(test_print_zhi_01
         tree/print_zhi/01/Solution.h
         tree/print_zhi/01/Solution.cpp
         tree/print_zhi/01/test.cpp)
+
+add_executable(test_serialize_tree_01
+        tree/serialize/01/Solution.h
+        tree/serialize/01/Solution.cpp
+        tree/serialize/01/test.cpp)
