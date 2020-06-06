@@ -334,3 +334,8 @@ add_executable(test_kth_node_01
         tree/kth_node/01/Solution.h
         tree/kth_node/01/Solution.cpp
         tree/kth_node/01/test.cpp)
+
+add_executable(test_is_symmerical_01
+        tree/is_symmerical/01/Solution.h
+        tree/is_symmerical/01/Solution.cpp
+        tree/is_symmerical/01/test.cpp)
