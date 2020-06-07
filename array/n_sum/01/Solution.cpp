@@ -16,11 +16,11 @@
  * 不能是middle = sum/2。
  * todo 其实，我不是特别理解，原因是什么？经过观察，我发现，确实需要是
  * middle = (sum+1)/2。
- * 当sum = 6,middle = 3，若small = 3,不存在big+small = 6.
- * 当sum = 5,middle = 3,若small = 3,不存在big+small = 6.
- * 当sum = 5,middle = 2,若small = 2,存在big+small = 5.
+ * 1>当sum = 6,middle = 3，若small = 3,不存在big+small = 6.(middle=(sum+1)/2或middle=sum/2，middle都是3）
+ * 2>当sum = 5,middle = 3,若small = 3,不存在big+small = 6.<=== middle=(sum+1)/2
+ * 3>当sum = 5,middle = 2,若small = 2,存在big+small = 5.<======== middle=sum/2
  * middle = sum/2时，sum为奇数和偶数时，是否存在big+small = sum
- * 的结果不一致；当middle=(sum+1)/2时，结果一致。所以，选择
+ * 的结果不一致，即，1>和3>的结果不一致，同样的标准，结果应该一样；当middle=(sum+1)/2时，结果一致。所以，选择
  * middle = (sum+1)/2。
  **********************************************************/
 #include "Solution.h"
@@ -32,6 +32,11 @@ vector<vector<int>> Solution::FindContinuousSequence(int sum) {
     // todo 有点难理解，不是看一眼就觉得应该如此。
     // todo 由于，子序列，至少2个数字，如果small等于middle，small+middle+big 必然 大于 sum
     // todo 所以，当small>=middle时，后面的子序列，不必去计算了。
+    // todo 6月7日，我竟然看不懂前些天自己写的注释了。
+    // todo 一组连续正数和为100的序列:18,19,20,21,22。middle = (100+1)/2 = 50。
+    // todo 把sum=100当作连续正整数中的一个,1,2,3,,4...100，中间的数字是50。在这个序列中找子序列。
+    // todo 当small=50时，big至少等于51,50+51 = 101 > 100(sum)，所以，small >= middle，sum
+    // todo 必然小于 sum + middle。
     int middle = (sum + 1) / 2;
     int createSum = small + big;
 
