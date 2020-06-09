@@ -344,3 +344,8 @@ add_executable(test_ugly_number_01
         exhaustion/ugly_number/01/Solution.h
         exhaustion/ugly_number/01/Solution.cpp
         exhaustion/ugly_number/01/test.cpp)
+
+add_executable(test_ugly_number_02
+        exhaustion/ugly_number/02/Solution.h
+        exhaustion/ugly_number/02/Solution.cpp
+        exhaustion/ugly_number/02/test.cpp)
