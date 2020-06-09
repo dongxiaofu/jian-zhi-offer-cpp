@@ -260,6 +260,11 @@ add_executable(test_find_first_common_node_02
         linked_list/find_first_common_node/02/Solution.cpp
         linked_list/find_first_common_node/02/test.cpp)
 
+add_executable(test_last_remaining_01
+        linked_list/last_remaining/01/Solution.h
+        linked_list/last_remaining/01/Solution.cpp
+        linked_list/last_remaining/01/test.cpp)
+
 #队列和栈
 add_executable(test_stack_demo
         queue_and_stack/implement_queue_with_two_stacks/01/demo/stack_demo.cpp)
