@@ -13,5 +13,8 @@ int main() {
     int n5 = solution.GetLastRemaining(5, 3);
     cout << n5 << endl;
 
+    int n8 = solution.GetLastRemaining(8, 3);
+    cout << n8 << endl;
+
     return 0;
 }

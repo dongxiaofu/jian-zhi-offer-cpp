@@ -28,15 +28,23 @@ int Solution::GetLastRemaining(int n, int m) {
     int index = 1;
     int start = 1;
 
+    int counter = 0;
+
     while (current != NULL && current->next != NULL) {
         if (index == m) {
-            printf("%d\n", current->val);
+//            printf("%d\n", current->val);
+//            if (++counter >= 6) {
+//                break;
+//            }
             if (start == m) {
                 pre = current->next;
                 current->next = NULL;
                 current = pre;
             } else {
                 pre->next = current->next;
+                // todo 花费时间最多的地方。作用是，当环形链表只有一个结点时，避免死循环。
+                // todo 再次强调，仅在只有一个结点时发挥作用。todo 其他时候，为何不发挥作用？
+                // todo 发挥作用是指，当current->next=NULL时，pre->next的值也是NULL。
                 current->next = NULL;
                 current = pre->next;
             }
@@ -47,7 +55,7 @@ int Solution::GetLastRemaining(int n, int m) {
             index++;
         }
     }
-    // todo 为何不是current？不能看一眼就明白
+    // todo 为何不是current？不能看一眼就明白。与上面的todo有关系。
     if (pre == NULL) {
         return -1;
     }

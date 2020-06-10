@@ -265,6 +265,11 @@ add_executable(test_last_remaining_01
         linked_list/last_remaining/01/Solution.cpp
         linked_list/last_remaining/01/test.cpp)
 
+add_executable(test_last_remaining_02
+        linked_list/last_remaining/02/Solution.h
+        linked_list/last_remaining/02/Solution.cpp
+        linked_list/last_remaining/02/test.cpp)
+
 #队列和栈
 add_executable(test_stack_demo
         queue_and_stack/implement_queue_with_two_stacks/01/demo/stack_demo.cpp)
