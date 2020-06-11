@@ -11,6 +11,12 @@ int main() {
     string str1 = "I am a student.";
     string new_str1 = solution.ReverseSentence(str1);
     cout << new_str1 << endl;
+
+    string word = "";
+    if (word.empty()) {
+        cout << "empty" << endl;
+    }
+
     return 0;
 }
 
