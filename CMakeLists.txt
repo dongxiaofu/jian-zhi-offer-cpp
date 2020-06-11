@@ -323,6 +323,11 @@ add_executable(test_min_in_stack_01
         queue_and_stack/min_in_stack/01/Solution.cpp
         queue_and_stack/min_in_stack/01/test.cpp)
 
+add_executable(test_min_in_stack_02
+        queue_and_stack/min_in_stack/02/Solution.h
+        queue_and_stack/min_in_stack/02/Solution.cpp
+        queue_and_stack/min_in_stack/02/test.cpp)
+
 #查找和数学
 add_executable(test_number_of_one_between_1_and_n_01
         find_and_math/number_of_one_between_1_and_n/01/Solution.h
