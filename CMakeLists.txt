@@ -52,9 +52,23 @@ add_executable(test_str_to_int_01
         string/str_to_int/01/Solution.cpp
         string/str_to_int/01/test.cpp)
 
+add_executable(test_permutation_01
+        string/permutation/01/Solution.h
+        string/permutation/01/Solution.cpp
+        string/permutation/01/test.cpp)
+
+add_executable(test_permutation_02
+        string/permutation/02/Solution.h
+        string/permutation/02/Solution.cpp
+        string/permutation/02/test.cpp)
+
 add_executable(test_string_demo
         string/reverse_sentence/demo/string_demo.cpp)
 
+add_executable(test_substr_demo
+        string/permutation/01/demo/substr_demo.cpp)
+
+#位运算
 add_executable(test_number_of_one
         bitwise/01/Solution.cpp
         bitwise/01/Solution.h
