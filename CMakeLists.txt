@@ -52,6 +52,16 @@ add_executable(test_str_to_int_01
         string/str_to_int/01/Solution.cpp
         string/str_to_int/01/test.cpp)
 
+add_executable(test_str_to_int_02
+        string/str_to_int/02/Solution.h
+        string/str_to_int/02/Solution.cpp
+        string/str_to_int/02/test.cpp)
+
+add_executable(test_str_to_int_03
+        string/str_to_int/03/Solution.h
+        string/str_to_int/03/Solution.cpp
+        string/str_to_int/03/test.cpp)
+
 add_executable(test_permutation_01
         string/permutation/01/Solution.h
         string/permutation/01/Solution.cpp
