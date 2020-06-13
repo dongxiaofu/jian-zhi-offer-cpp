@@ -49,8 +49,8 @@ int Solution::HalfSearch(vector<int> array, int k) {
     int low = 0;
     int high = array.size() - 1;
     int mid = -1;
-
-    while (low < high) {
+    // 必须有等于，否则会不能处理好只有两个元素的查找
+    while (low <= high) {
         mid = (high + low) / 2;
         if (array[mid] == k) {
             return mid;

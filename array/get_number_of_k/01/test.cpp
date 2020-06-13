@@ -19,5 +19,11 @@ int main() {
     int counter2 = solution.GetNumberOfK(array2, 3);
     cout << counter2 << endl;
 
+    int tmp3[2] = {1, 2};
+    vector<int> array3;
+    array3.insert(array3.begin(), tmp3, tmp3 + 2);
+    int counter3 = solution.GetNumberOfK(array3, 2);
+    cout << counter3 << endl;
+
     return 0;
 }

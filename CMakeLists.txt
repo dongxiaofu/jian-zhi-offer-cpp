@@ -72,6 +72,11 @@ add_executable(test_permutation_02
         string/permutation/02/Solution.cpp
         string/permutation/02/test.cpp)
 
+add_executable(test_longest_duplicate_child_str_01
+        string/longest_duplicate_child_str/01/Solution.h
+        string/longest_duplicate_child_str/01/Solution.cpp
+        string/longest_duplicate_child_str/01/test.cpp)
+
 add_executable(test_string_demo
         string/reverse_sentence/demo/string_demo.cpp)
 
