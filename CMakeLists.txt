@@ -394,6 +394,11 @@ add_executable(test_is_symmerical_01
         tree/is_symmerical/01/Solution.cpp
         tree/is_symmerical/01/test.cpp)
 
+add_executable(test_lowest_common_ancestor_01
+        tree/lowest_common_ancestor/01/Solution.cpp
+        tree/lowest_common_ancestor/01/Solution.h
+        tree/lowest_common_ancestor/01/test.cpp)
+
 add_executable(test_ugly_number_01
         exhaustion/ugly_number/01/Solution.h
         exhaustion/ugly_number/01/Solution.cpp
