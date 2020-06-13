@@ -399,6 +399,11 @@ add_executable(test_lowest_common_ancestor_01
         tree/lowest_common_ancestor/01/Solution.h
         tree/lowest_common_ancestor/01/test.cpp)
 
+add_executable(test_is_sub_structure_01
+        tree/is_sub_structure/01/Solution.h
+        tree/is_sub_structure/01/Solution.cpp
+        tree/is_sub_structure/01/test.cpp)
+
 add_executable(test_ugly_number_01
         exhaustion/ugly_number/01/Solution.h
         exhaustion/ugly_number/01/Solution.cpp
