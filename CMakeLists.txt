@@ -404,6 +404,12 @@ add_executable(test_is_sub_structure_01
         tree/is_sub_structure/01/Solution.cpp
         tree/is_sub_structure/01/test.cpp)
 
+add_executable(test_tree_to_doubly_list_01
+        tree/tree_to_doubly_list/01/Solution.cpp
+        tree/tree_to_doubly_list/01/Solution.h
+        tree/tree_to_doubly_list/01/Node.h
+        tree/tree_to_doubly_list/01/test.cpp)
+
 add_executable(test_ugly_number_01
         exhaustion/ugly_number/01/Solution.h
         exhaustion/ugly_number/01/Solution.cpp
