@@ -3,10 +3,12 @@
 //
 #include <iostream>
 #include "Solution.h"
+#include <vector>
 
 using namespace std;
 
 int main() {
+
     Solution solution;
 
     int number0 = solution.GetUglyNumber(0);
@@ -32,6 +34,14 @@ int main() {
 
     int number1500 = solution.GetUglyNumber(1500);
     cout << number1500 << endl;    //
+
+    vector<int> nums2;
+    nums2[4] = 5;   // leetcode不支持这种写法。本电脑也不支持这种写法，但不报错，只是不能正确输出。
+    nums2.push_back(77);
+//    cout << nums2[4] << endl;
+    for (auto num:nums2) {
+        cout << num;
+    }
 
     return 0;
 }

@@ -1,7 +1,6 @@
 //
-// Created by chugang on 2020/5/29.
+// Created by chugang on 2020/6/18.
 //
-
 #include <iostream>
 #include "Solution.h"
 
@@ -16,7 +15,7 @@ int main() {
     int arr12[] = {3, 5, 4, 2, 1};
     vector<int> popV;
     popV.insert(popV.begin(), arr12, arr12 + 5);
-    bool is = solution.isPopOrder(pushV, popV);
+    bool is = solution.validateStackSequences(pushV, popV);
     cout << is << endl;
 
     cout << endl << "========================" << endl;
@@ -27,7 +26,7 @@ int main() {
     int arr22[] = {5, 4, 3, 2, 1};
     vector<int> popV22;
     popV22.insert(popV22.begin(), arr22, arr22 + 5);
-    bool is21 = solution.isPopOrder(pushV21, popV22);
+    bool is21 = solution.validateStackSequences(pushV21, popV22);
     cout << is21 << endl;
 
     cout << endl << "========================" << endl;
@@ -37,7 +36,7 @@ int main() {
     int arr32[] = {4, 5, 3, 2, 1};
     vector<int> popV32;
     popV32.insert(popV32.begin(), arr32, arr32 + 5);
-    bool is31 = solution.isPopOrder(pushV31, popV32);
+    bool is31 = solution.validateStackSequences(pushV31, popV32);
     cout << is31 << endl;
 
 //    [2,1,0]
@@ -45,7 +44,7 @@ int main() {
     cout << endl << "========================" << endl;
     vector<int> push41({2, 1, 0});
     vector<int> pop42({1, 2, 0});
-    bool is41 = solution.isPopOrder(push41, pop42);
+    bool is41 = solution.validateStackSequences(push41, pop42);
     cout << is41 << endl;
 
 
