@@ -180,6 +180,11 @@ add_executable(test_multiply_01
         array/multiply/01/Solution.cpp
         array/multiply/01/test.cpp)
 
+add_executable(test_multiply_02
+        array/multiply/02/Solution.h
+        array/multiply/02/Solution.cpp
+        array/multiply/02/test.cpp)
+
 add_executable(test_vector_demo
         array/get_least_numbers/demo/vector_demo.cpp)
 
