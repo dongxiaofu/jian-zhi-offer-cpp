@@ -9,6 +9,9 @@
  * 1.1.比较p的值pv和root的值的大小。大==》在root->right中查找p；小==>在root->left中查找p。
  * 1.2.查找过程中，将每个结点存到数组arr1中。
  * 2.同时遍历arr1和arr2，若遇到当前元素v1和v2相等，v1是目标结点。
+ * 2.1.求两链表的第一个公共结点:
+ * 2.1.1.从结点数少些的链表的末尾开始遍历，遇到第一个相等的结点，是目标结点。
+ * 2.1.2.从最后的结点开始，分别将两个链表放入栈中。然后出栈，遇到第一个不相等的结点，前一个结点是目标结点。
  * 3.返回NULL。
  */
 #include "Solution.h"
@@ -24,6 +27,8 @@ TreeNode *Solution::lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *
     } else {
         min = pLen;
     }
+    // 这里，复习时，又纠结了很久
+    // 求两链表的第一个公共结点：
     for (int i = min - 1; i >= 0; i--) {
         if (pPath[i] == qPath[i]) {
             return pPath[i];
