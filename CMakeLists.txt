@@ -446,6 +446,11 @@ add_executable(test_34_01
         once_again/34/01/Solution.cpp
         once_again/34/01/test.cpp)
 
+add_executable(test_47_01
+        once_again/47/01/Solution.h
+        once_again/47/01/Solution.cpp
+        once_again/47/01/test.cpp)
+
 add_executable(test_60_01
         once_again/60/01/Solution.h
         once_again/60/01/Solution.cpp
