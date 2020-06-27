@@ -14,7 +14,7 @@ int main() {
     int max2 = solution.maxProfit(price2);
     cout << max2 << endl;   // 0
 
-    vector<int> price3({1,2});
+    vector<int> price3({1, 2});
     int max3 = solution.maxProfit(price3);
     cout << max3 << endl;   // 1
 
