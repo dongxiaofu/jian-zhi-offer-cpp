@@ -24,7 +24,7 @@ bool Solution::isStraight(vector<int> &nums) {
     for (auto num:nums) {
         arr[i++] = num;
     }
-    qsort(arr, size, sizeof(int), compare); // 等价于 sort(arr, arr+length);
+    qsort(arr, size, sizeof(int), compare); // 等价于 sort(arr, arr+length, compare);
     int numOfZero = 0;
     for (int i = 0; i < size; i++) {
         if (nums[i] == 0) {
@@ -54,6 +54,7 @@ bool Solution::isStraight(vector<int> &nums) {
     return false;
 }
 
+// todo 看不懂这里的语法
 int Solution::compare(const void *arg1, const void *arg2) {
     return (*(int *) arg1 - *(int *) arg2);
 }
