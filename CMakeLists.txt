@@ -436,6 +436,11 @@ add_executable(test_ugly_number_02
         exhaustion/ugly_number/02/test.cpp)
 
 #重新做
+add_executable(test_13_01
+        once_again/13/01/Solution.h
+        once_again/13/01/Solution.cpp
+        once_again/13/01/test.cpp)
+
 add_executable(test_33_01
         once_again/33/01/Solution.h
         once_again/33/01/Solution.cpp
